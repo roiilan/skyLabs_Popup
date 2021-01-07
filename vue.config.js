@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '/popup/'
-}
+    publicPath: process.env.NODE_ENV === 'production'
+        ? '/skyLabs_Popup/'
+        : '/'
+    }
