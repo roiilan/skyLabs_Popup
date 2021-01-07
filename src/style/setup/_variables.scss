@@ -1,0 +1,23 @@
+// COLOR PALETTE
+$clr1: black;
+$clr2: #ff0281;
+$clr3: #ffffff;
+
+// BOX-SHADOW
+$shadow1: 0px 0px 1px 1px #00000026;
+$shadow2: 0px 0px 3px 1px #00000026;
+$shadow3: 0px 0px 4px 1px #00000026;
+
+// LAYOUT BREAKPOINTS
+$break-mobile: 680px;
+$break-narrow: 780px;
+$break-normal: 1080px;
+
+//z-index map
+$z-index:(
+    negative: -1,
+    base: 0,
+    low: 1,
+    backdrop: 90,
+    popup: 100,
+)
